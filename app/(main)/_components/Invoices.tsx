@@ -12,7 +12,7 @@ import {
 import { invoicesQueryFn } from "@/lib/api";
 import { useQuery } from "@tanstack/react-query";
 
-{/**
+
 const invoices = [
   {
     invoice: "INV001",
@@ -95,8 +95,8 @@ const Invoice = () => {
     </div>
   );
 };
- */}
 
+{/**
  const Invoice = () => {
   const { data, isLoading, refetch } = useQuery({
     queryKey: ["invoices"],
@@ -110,5 +110,6 @@ const Invoice = () => {
     <div>Invoice</div>
   )
  }
+   */}
 
 export default Invoice;
